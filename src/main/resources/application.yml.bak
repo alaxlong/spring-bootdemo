@@ -1,0 +1,21 @@
+#server.servlet.context-path=/spring-boot
+server:
+  port: 8888
+
+##tv
+tv:
+  author: wumengjie
+  name: wu
+  pinyin: jiejie
+
+###student
+student:
+  name: shangbaibing
+  age: 22
+
+##JSP
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view
+      suffix: .jsp
